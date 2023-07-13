@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ececec;
+/* overflow: hidden; */
+}
+
+
+/* ---------- Utilities classes --------- */
+
+/* temp */
+
+main{
+  overflow: hidden;
+}
+footer{
+  overflow: hidden;
+}
+
+.nav-toggle{
+  display: none;
+}
+
+
+/* temp */
+.container {
+  max-width: 1100px;
+  margin-inline: auto;
+  /* overflow: hidden; */
+}
+
+.flex-layout {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ---------- Utilities classes --------- */
+
+/* ------------------- Navbar------------- */
+
+nav {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 163px;
+}
+
+.main-nav {
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.menu-nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+
+.menu-nav-row {
+  padding-block: 9.5px;
+}
+
+.primary-btn-twsred {
+  width: 144px;
+  height: 44px;
+  border-radius: 28px;
+  background-color: #dc3636;
+  color: white !important;
+  padding: 8px 24px;
+}
+
+.menu-nav-links img {
+  position: relative;
+  padding-inline: 5px;
+  top: 2px;
+}
+
+.company-logo {
+  height: 90px;
+  width: 194px;
+  background-color: #d9d9d9;
+  color: white;
+}
+
+.company-logo a {
+  text-decoration: none;
+}
+
+.clogo-text-style {
+  padding-top: 20px;
+  padding-right: 39px;
+  padding-bottom: 22px;
+  padding-left: 67px;
+  height: 50px;
+  width: 104px;
+}
+
+.nav-toggle{
+  display: hidden;
+}
+/* ------------------- Navbar------------- */
+
+/* ------- --------Main Content---------------- */
+
+.main-content {
+  margin-top: 39px;
+  background-color: rgb(255, 255, 255);
+  height: 385px;
+  padding: 37px 37px 30px 37px;
+}
+
+.main-content-top {
+  justify-content: space-between;
+  padding-bottom: 46px;
+}
+
+.main-content-top-left {
+  width: 52vw;
+  height: 207px;
+}
+
+.main-content-tags {
+  padding-top: 25px;
+}
+
+.tags-btn-gap {
+  gap: 16px;
+}
+
+.user-btn-tag {
+  width: 210px;
+  height: 42px;
+  border: 0.5px solid #434343;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 6px;
+  gap: 10px;
+}
+
+.user-tag-img {
+  position: relative;
+  padding-inline: 5px;
+  top: 3px;
+}
+
+.user-btn-tag a {
+  text-decoration: none;
+  color: #434343;
+}
+
+.genre-btn-tags {
+  width: 93px;
+  height: 40px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    #dc3636;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding-left: 20px;
+  gap: 10;
+}
+
+.level-btn-tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 6px;
+  gap: 10px;
+
+  width: 123px;
+  height: 40px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    #434343;
+  border-radius: 30px;
+}
+
+.main-content-table {
+  width: 19.5vw;
+}
+
+table {
+  border: 0.5px solid#434343;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+}
+
+.mc-footer-radius {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.main-content-table {
+  border: 0.5px solid #434343;
+  border-radius: 8px;
+}
+
+.text-dec-pt-san {
+  width: 135.59px;
+}
+
+.text-dec-pt-san {
+  height: 93.47px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #434343;
+}
+
+.border-right-table {
+  border-right: 0.5px solid #434343;
+  width: 135.59px;
+  height: 0px;
+}
+
+.mc-table-footer {
+  height: 54.34px;
+  background: #dc3636;
+  text-align: center;
+}
+
+.membership {
+  display: block;
+  padding: 5px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #434343;
+}
+
+.coupon-btn-area {
+  width: 19.5vw;
+  padding-top: 29px;
+  text-align: center;
+}
+
+.coupon-btn {
+  border: 1px solid #434343;
+  border-radius: 8px;
+  font-family: "PT Sans";
+  background-color: white;
+  font-weight: 700;
+  color: black;
+  padding: 8.5px 17px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.main-content-bottom {
+  width: 1026px;
+  gap: 55px;
+}
+
+.main-content-card {
+  height: 53px;
+  padding-left: 1px;
+}
+
+.main-content-card img {
+  padding-bottom: 20px;
+}
+
+.vertical-border-date {
+  border-left: 0.8px solid #828282;
+  padding-left: 28px;
+}
+
+/* ------- --------Main Content---------------- */
+
+/*  -----------------Decription Section--------------  */
+
+.description-section {
+  margin-top: 33px;
+  flex-wrap: wrap;
+  /* change */
+}
+
+.description-section-left {
+  background-color: white;
+  width: 53vw;
+  height: 1016px;
+  padding: 49px 63px 0 38px;
+}
+
+.description-section-right {
+  width: 28vw;
+  height: 1016px;
+  /* background-color: blanchedalmond; */
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    #f39b4e;
+  padding: 0 40px;
+  padding-top: 34px;
+}
+
+.user-social-icons {
+  gap: 14px;
+  padding-top: 52px;
+}
+
+.user-social-icons h3 {
+  color: grey;
+}
+
+.user-social-icons ul {
+  gap: 14px;
+}
+
+.horizonatal-line {
+  margin-top: 27px;
+  border: 0.8px solid #d8d6d6;
+  margin-bottom: 30px;
+}
+
+.schedule h2 {
+  font-size: 24px;
+  padding-bottom: 34px;
+}
+
+.schedule-table {
+  flex-direction: column;
+  gap: 15px;
+  align-items: start !important;
+}
+
+.schedule-row-2 {
+  gap: 10px;
+}
+
+.schedule-list {
+  text-align: center;
+  width: 57px;
+  height: 57px;
+  padding-top: 10px;
+}
+
+.profile-img {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.reviews {
+  background: #ffffff;
+  width: 202px;
+  height: 44px;
+  border: 1px solid #dc3636;
+  border-radius: 28px;
+  padding: 8px 28px;
+  cursor: pointer;
+}
+
+.description-section-bottom {
+  background-image: url(../images/Rectangle.svg);
+  height: 264px;
+  padding-inline: 85px;
+  padding-top: 38px;
+  padding-bottom: 53px;
+}
+
+.testimonials-container {
+  background-color: white;
+  height: 173px;
+  width: 940px;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  /* padding: 46px 128px 45px 141px; */
+  padding-left: 35px;
+  gap: 43px;
+}
+
+.user-testimonials-review {
+  width: 684px;
+  height: 82px;
+}
+
+/*  -----------------End of Decription Section-------------- */
+
+/* ---------Similar Classes section--------- */
+.classes-section {
+  margin-top: 27px;
+  height: 262px;
+  background-color: white;
+  padding-top: 41px;
+  padding-left: 38px;
+  padding-right: 26px;
+}
+
+.classes-description-card {
+  justify-content: space-between;
+  padding-top: 31px;
+}
+
+.classes-description-card-block {
+  width: 260px;
+  height: 110px;
+}
+
+.classes-description-card a {
+  color: #dc3636 !important;
+}
+
+/* ---------Similar Classes section--------- */
+
+/* ------------Adding about classes and cancelation policy-------- */
+
+#about-classes-cancellation-policy-container {
+  width: 100%;
+  background-color: white;
+  margin-top: 49px;
+  padding-top: 75px;
+  padding-inline: 124.5px;
+}
+
+.about-classes-section h2 {
+  margin-bottom: 22px;
+}
+
+.about-faq-links a{
+  display: inline-block;
+  padding-top: 33px;
+  padding-right: 66px;
+  padding-bottom: 61px;
+  color: #dc3636;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+}
+
+.about-classes-cancellation-policy-container hr {
+  border: 0.8px solid #828282;
+}
+
+.policy-cancelation-section h2 {
+  margin-top: 61px;
+  margin-bottom: 16px;
+}
+
+/* new  */
+
+.policy-cancelation-card {
+  padding-top: 36px;
+  justify-content: space-between;
+  gap: 23px;
+  padding-bottom: 90px;
+}
+
+.pc-card {
+  height: 141px;
+  width: 254px;
+}
+
+.heading-pfstyle-pccard {
+  font-weight: 700;
+  color: #dc3636;
+  display: block;
+}
+
+/* ------------End of about classes and cancelation policy-------- */
+
+/* ------------- Footer--------- */
+footer {
+  background: #434343;
+  height: 412px;
+  width: 100%;
+  padding-inline: 124.5px;
+  /* padding-top: 119px; */
+  padding-bottom: 23px;
+  justify-content: space-between;
+}
+
+.about-footer-section {
+  padding-top: 119px;
+}
+
+.general-links {
+  height: 35px;
+  margin-bottom: 53px;
+}
+
+.contact-us-footer-section {
+  margin-bottom: 45.33px;
+}
+
+.subscribe-latest-news::placeholder {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #787579;
+  padding-left: 19.28px;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+}
+
+.subscribe-latest-news {
+  height: 52.6px;
+  width: 348px;
+  background: #ffffff;
+  border-radius: 28px;
+  border: none;
+}
+
+button {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  z-index: 2;
+  border: none;
+  width: 113.86px;
+  height: 46.29px;
+  cursor: pointer;
+  color: white;
+  background: #f39b4e;
+  border-radius: 28px;
+}
+
+.social-media-icon {
+  padding-top: 99.13px;
+  gap: 10.53px;
+  justify-content: flex-end;
+  margin-bottom: 65.56px;
+}
+
+.email-social-footer-section {
+  padding-top: 52px;
+}
+
+.latest-news-section {
+  padding-bottom: 17px;
+}
+
+/* slideshow next prev key ( JS required ) */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 60px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.next {
+  right: 12%;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  border-radius: 3px 0 0 3px;
+  left: 12%;
+}

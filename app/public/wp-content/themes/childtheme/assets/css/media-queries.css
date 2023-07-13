@@ -1,0 +1,139 @@
+@media screen and (min-width: 1024px) and (max-width: 1099px) {
+    .container {
+        width: 100vw;
+        /* padding-inline: 30px; */
+    }
+
+    /* nav  */
+
+    .main-nav {
+        
+        justify-content: space-between;
+        gap: 15px;
+        display: flex;
+        padding-inline: 30px;
+    }
+
+    .company-logo {
+        margin-right: 20px;
+    }
+
+    /* nav */
+
+    /* main content */
+
+    .main-content {
+        height: 450px;
+    }
+
+    .main-content-top {
+        display: flex;
+        align-items: flex-start;
+    }
+    #tdalontop{
+        vertical-align: top;
+    }
+
+    .main-content-bottom {
+        gap: 10px;
+    }
+
+    /* .main-content-bottom img {
+        visibility: hidden;
+    } */
+
+    .main-content-card {
+        width: 45vw;
+        height: 60px;
+        padding-left: 1px;
+
+    }
+
+       /*---------- end of Main Content---------  */
+
+       /* -------- Description -------------- */
+
+    .description-section {
+        margin-top: 33px;
+        flex-wrap: wrap;
+        width: 100vw;
+        
+    }
+
+    .description-section-left {
+        /* height: 1200px; */
+        width: 53vw;
+        padding: 49px 30px 30px 38px;
+    }
+
+    .description-section-right {
+        padding-inline: 10%;
+        width: 47vw;
+    }
+
+    /* .horizonatal-line {
+        visibility: hidden;
+    } */
+
+    .description-section-left p {
+
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .user-bio {
+        font-size: 18px;
+        line-height: 28px;
+        justify-content: center;
+    }
+
+    .schedule h2 {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+
+    .description-section-bottom {
+        padding-left: 4%;
+
+    }
+
+    .testimonials-container {
+
+        width: 90vw;
+        padding-left: 5%;
+        gap: 20px;
+    }
+    .next {
+        border-radius: 3px 0 0 3px;
+        right: 2%;
+       
+      }
+      .prev{
+        border-radius: 3px 0 0 3px;
+        left: 0.1%;
+      }
+
+    #about-classes-cancellation-policy-container {
+        margin-top: 49px;
+        padding-top: 41px;
+        padding-left: 38px;
+        padding-right: 26px;
+    }
+
+    footer {
+        height: 100%;
+        gap: 30px;
+        padding-inline: 30px;
+        padding-top: 30px;
+        padding-bottom: 23px;
+        justify-content: space-between;
+
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+/* --------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
