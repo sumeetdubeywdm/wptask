@@ -1,0 +1,232 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 100vw;
+    }
+
+    /* Nav */
+    .main-nav {
+        padding-inline: 20px;
+    }
+
+    .company-logo {
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .clogo-text-style {
+        padding: 20px 10px;
+        width: 80px;
+    }
+
+    .clogo-font-style {
+
+        font-size: 24px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+
+    /*------------------ Nav -----------*/
+
+    /*-----------------Main Content------------  */
+    .main-content {
+        height: 450px;
+    }
+
+    .main-content-top {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #tdalontop{
+        vertical-align: top;
+    }
+    .user-btn-tag {
+        width: 210px;
+        height: 42px;
+        border: 0.5px solid #434343;
+        border-radius: 30px;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .btnfsptsan {
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .main-content-bottom {
+        width: 50vw;
+        gap: 5px;
+
+    }
+
+    .main-content-bottom img {
+        visibility: hidden;
+    }
+
+    .main-content-card {
+        width: 30vw;
+        height: 60px;
+        padding-left: 1px;
+
+    }
+
+    .main-content-p-font-style-ptsan {
+        width: 25vw;
+        height: 53px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*----------Main Content---------  */
+
+    /*----------------- Description ----------*/
+
+
+    .description-section {
+        margin-top: 33px;
+        flex-wrap: wrap;
+        width: 100vw;
+
+    }
+
+    .description-section-left {
+        height: 1200px;
+        width: 50vw;
+        padding: 49px 30px 30px 38px;
+    }
+
+
+    .description-section-left p {
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .description-section-right {
+        height: 1200px;
+        padding-inline: 5%;
+        width: 50vw;
+    }
+
+
+    .user-bio {
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+    }
+
+    @media screen and (min-width:880px) {
+        .description-section-left {
+            height: 1100px;
+            width: 50vw;
+            /* padding: 49px 30px 30px 38px; */
+        }
+
+        .description-section-right {
+            height: 1100px;
+            padding-inline: 10%;
+            width: 50vw;
+        }
+    }
+
+    .horizonatal-line {
+        visibility: hidden;
+    }
+
+    .user-social-icons {
+        gap: 15px;
+        padding-top: 32px;
+    }
+
+    .schedule h2 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .schedule-table {
+        gap: 8px;
+    }
+
+    #schedule-h2-font-style {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    /*  */
+    .description-section-bottom {
+        padding-inline: 4%;
+
+    }
+
+    .testimonials-container {
+
+        width: 90vw;
+        padding-inline: 2%;
+        gap: 20px;
+        padding-bottom: 15px;
+    }
+
+    .next {
+        border-radius: 3px 0 0 3px;
+        right: 2%;
+       
+      }
+      .prev{
+        border-radius: 3px 0 0 3px;
+        left: 0.1%;
+      }
+    /*----------- End of Decription Section---------- */
+
+    #about-classes-cancellation-policy-container {
+        margin-top: 49px;
+        padding-top: 41px;
+        padding-left: 38px;
+        padding-right: 26px;
+    }
+
+    /* .policy-cancelation-section {
+        padding-bottom: 10vh;
+    }
+
+    .policy-cancelation-card {
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 120px;
+      } */
+
+
+
+    /* ------------------------------- */
+    footer {
+        height: 100%;
+        gap: 30px;
+        padding-inline: 30px;
+        padding-bottom: 23px;
+        justify-content: space-between;
+
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .about-footer-section {
+        padding-top: 30px;
+      }
+
+      .contact-us-footer-section {
+        margin-bottom: 109px;
+      }
+
+
+
+}
